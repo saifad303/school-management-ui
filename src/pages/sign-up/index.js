@@ -28,22 +28,22 @@ export default function SignUp() {
           <input
             type="text"
             placeholder="Enter Your Name *"
-            className="block placeholder:text-black border border-1 border-black px-[17px] py-[18px] rounded-lg w-[100%] placeholder:text-[20px] text-[20px]"
+            className="block placeholder:text-black border border-1 border-black px-[17px] py-[18px] rounded-lg w-full placeholder:text-[20px] text-[20px]"
           />
           <input
             type="text"
             placeholder="Email *"
-            className="block placeholder:text-black border border-1 border-black px-[17px] py-[18px] rounded-lg w-[100%] placeholder:text-[20px] text-[20px]"
+            className="block placeholder:text-black border border-1 border-black px-[17px] py-[18px] rounded-lg w-full placeholder:text-[20px] text-[20px]"
           />
           <input
             type="text"
             placeholder="Password *"
-            className="block placeholder:text-black border border-1 border-black px-[17px] py-[18px] rounded-lg w-[100%] placeholder:text-[20px] text-[20px]"
+            className="block placeholder:text-black border border-1 border-black px-[17px] py-[18px] rounded-lg w-full placeholder:text-[20px] text-[20px]"
           />
           <input
             type="text"
             placeholder="Password (Confirm) *"
-            className="block placeholder:text-black border border-1 border-black px-[17px] py-[18px] rounded-lg w-[100%] placeholder:text-[20px] text-[20px]"
+            className="block placeholder:text-black border border-1 border-black px-[17px] py-[18px] rounded-lg w-full placeholder:text-[20px] text-[20px]"
           />
         </form>
         <div className=" flex gap-[20px] mb-[30px]">
@@ -64,7 +64,7 @@ export default function SignUp() {
           Create your free account
         </button>
       </div>
-      <div className="hidden sm:block">2</div>
+      <div className="hidden md:block">2</div>
     </div>
   );
 }
