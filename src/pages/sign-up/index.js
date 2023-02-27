@@ -6,7 +6,7 @@ export default function SignUp() {
     <div className="h-screen">
       <div
         id="form-container"
-        className="flex flex-col justify-center h-full px-[30px]"
+        className="flex flex-col justify-center h-full px-[30px] py-[334px]"
       >
         <div className=" mb-[28px]">
           <Image
