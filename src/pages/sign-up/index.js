@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function SignUp() {
   return (
-    <div className="h-screen">
+    <div className="h-screen flex justify-between items-start">
       <div
         id="form-container"
         className="flex flex-col justify-center h-full px-[30px] py-[334px]"
@@ -64,7 +64,7 @@ export default function SignUp() {
           Create your free account
         </button>
       </div>
-      <div className="hidden">2</div>
+      <div className="hidden sm:block">2</div>
     </div>
   );
 }
