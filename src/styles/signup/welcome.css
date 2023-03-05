@@ -1,0 +1,60 @@
+@tailwind components;
+
+@layer components {
+  #welcome-page-wrapper {
+    @apply hidden lg:flex lg:items-center lg:w-1/2 bg-[#18212F] h-full relative px-5;
+  }
+
+  #welcome-page-wrapper .image {
+    @apply absolute;
+  }
+
+  #welcome-page-wrapper #bg-ellipse-1 {
+    @apply rotate-180 top-0 left-0 w-[300px] h-[300px] z-0;
+  }
+  #welcome-page-wrapper #bg-ellipse-2 {
+    @apply bottom-0 right-0 w-[300px] h-[300px] z-0;
+  }
+
+  #welcome-content-wrapper {
+    @apply text-white z-10;
+  }
+
+  #welcome-content-wrapper h1 {
+    @apply text-[46px] xl:text-[50px] 2xl:text-[64px] font-bold leading-[47px] w-[350px] xl:w-[380px] 2xl:w-[480px] mb-[20px] 2xl:mb-[32px] 2xl:leading-[60px];
+  }
+
+  #welcome-description {
+    @apply text-[14px] xl:text-[16px] 2xl:text-[20px] w-[450px] xl:w-[570px] 2xl:w-[705px] leading-[27px] mb-[40px] 2xl:leading-[35px];
+  }
+
+  #welcome-content {
+    @apply flex items-center;
+  }
+
+  #user-images-container {
+    @apply relative w-[120px] h-[28px];
+  }
+
+  #user-1,
+  #user-2,
+  #user-3,
+  #user-4 {
+    @apply top-0 border border-[#18212f] rounded-full;
+  }
+  #user-1 {
+    @apply left-0 z-40;
+  }
+  #user-2 {
+    @apply left-[22px] z-30;
+  }
+  #user-3 {
+    @apply left-[46px] z-10;
+  }
+  #user-4 {
+    @apply left-[72px] z-0;
+  }
+  #people-count {
+    @apply text-[14px] xl:text-[16px] 2xl:xl:text-[20px];
+  }
+}

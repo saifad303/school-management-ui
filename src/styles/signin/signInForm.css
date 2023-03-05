@@ -1,0 +1,59 @@
+@tailwind components;
+
+@layer components {
+  #signin-form-container {
+    @apply flex flex-col justify-center h-full lg:w-1/2 px-[30px] sm:px-[80px] md:px-[180px] lg:px-[30px] py-[334px] xl:px-[70px] 2xl:px-[180px];
+  }
+  #signin-form-wrapper {
+    @apply 2xl:w-[500px] 2xl:mx-auto;
+  }
+  #signin-form-head-wrapper {
+    @apply mb-[28px];
+  }
+
+  #signin-form-head-wrapper h1 {
+    @apply font-extrabold text-[40px] lg:mb-[20px];
+  }
+  #signin-form-head-wrapper p {
+    @apply lg:mb-[60px];
+  }
+  #signin-form-head-wrapper p span {
+    @apply underline text-[#745FF2];
+  }
+  #signin-form-wrapper form {
+    @apply space-y-[22px] mb-[28px];
+  }
+  #signin-form-wrapper form input {
+    @apply block placeholder:text-black border border-black px-[17px] py-[18px] rounded-lg w-full placeholder:text-[20px] text-[20px];
+  }
+  #remember-me-wrapper {
+    @apply flex gap-[20px] mb-[30px];
+  }
+  #remember-me-wrapper input {
+    @apply w-[14px] h-[14px];
+  }
+  #signin-btn {
+    @apply bg-[#7165E3] py-[11px] rounded-full text-white mb-[60px] w-full;
+  }
+
+  #social-linker-container {
+    @apply w-[90%] md:w-[100%] lg:w-[90%] 2xl:w-[100%] mx-auto;
+  }
+  #social-linker-head {
+    @apply flex items-center justify-center gap-2 mb-[30px];
+  }
+  #social-linker-head div {
+    @apply bg-[#9C9B9B] w-[20%] h-[1px] sm:w-[30%];
+  }
+  #social-linker-head p {
+    @apply text-[14px] sm:text-[18px];
+  }
+  #social-linkers {
+    @apply flex justify-between sm:justify-evenly items-center;
+  }
+  #facebook-linker,
+  #twitter-linker,
+  #google-linker {
+    @apply border border-black flex justify-center items-center w-[100px] h-[50px] sm:h-[54px] sm:w-[130px] rounded-[43px];
+  }
+}

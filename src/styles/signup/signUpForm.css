@@ -1,0 +1,47 @@
+@tailwind components;
+
+@layer components {
+  #CredentialContainer {
+    @apply h-screen lg:flex lg:justify-between lg:items-start;
+  }
+
+  #signup-form-container {
+    @apply flex flex-col justify-center h-full lg:w-1/2 px-[30px] sm:px-[80px] md:px-[180px] lg:px-[30px] py-[334px] xl:px-[70px] 2xl:px-[180px];
+  }
+
+  #signup-form-wrapper {
+    @apply 2xl:w-[500px] 2xl:mx-auto;
+  }
+
+  #signup-form-head-wrapper {
+    @apply mb-[28px];
+  }
+
+  #signup-form-head-wrapper h1 {
+    @apply font-extrabold text-[40px] lg:mb-[20px];
+  }
+
+  #signup-form-head-wrapper p span {
+    @apply underline text-[#745FF2];
+  }
+
+  #signup-form-wrapper form {
+    @apply space-y-[22px] mb-[28px];
+  }
+
+  #signup-form-wrapper form input {
+    @apply block placeholder:text-black border border-black px-[17px] py-[18px] rounded-lg w-full placeholder:text-[20px] text-[20px];
+  }
+
+  #terms-check-wrapper {
+    @apply flex gap-[20px] mb-[30px];
+  }
+
+  #terms-check-wrapper input {
+    @apply w-[18px] h-[18px];
+  }
+
+  #signUpSubmit {
+    @apply bg-[#7E635B]/50 py-[11px] rounded-full text-[#A89191] w-full lg:mt-[55px];
+  }
+}
