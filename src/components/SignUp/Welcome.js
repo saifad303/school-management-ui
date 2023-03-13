@@ -7,7 +7,7 @@ import {
   user2,
   user3,
   user4,
-} from "../nextjsImageProperties/imageProperties";
+} from "../../util/nextjsImageProperties/imageProperties";
 
 export default function Welcome() {
   return (

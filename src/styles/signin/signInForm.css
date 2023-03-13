@@ -4,6 +4,11 @@
   #signin-form-container {
     @apply flex flex-col justify-center h-full lg:w-1/2 px-[30px] sm:px-[80px] md:px-[180px] lg:px-[30px] py-[334px] xl:px-[70px] 2xl:px-[180px];
   }
+
+  #signin-form-container #logo {
+    @apply w-[66px] h-[66px];
+  }
+
   #signin-form-wrapper {
     @apply 2xl:w-[500px] 2xl:mx-auto;
   }
