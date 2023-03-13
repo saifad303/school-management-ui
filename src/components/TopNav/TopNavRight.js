@@ -18,7 +18,6 @@ function TopNavRight() {
         <Image {...topNavRightSearch} />
         <Image {...topNavRightBookmark} />
         <Image {...topNavRightBell} />
-        <Image {...topNavRightBell} />
       </div>
     </div>
   );
