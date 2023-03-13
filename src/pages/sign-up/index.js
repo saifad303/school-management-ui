@@ -2,7 +2,7 @@
 import SignUpForm from "@/components/SignUp/SignUpForm";
 import Welcome from "@/components/SignUp/Welcome";
 
-export default function SignUp() {
+export default function signUpIndex() {
   return (
     <div id="CredentialContainer">
       <SignUpForm />

@@ -1,0 +1,16 @@
+@tailwind components;
+
+@layer components {
+  #sidebar-header {
+    @apply flex justify-between items-center; /* flex */
+    @apply w-[100%] h-16 bg-black px-[24px] shadow-lg;
+  }
+
+  #sidebar-header #logo {
+    @apply w-[32px] h-[32px] mb-0;
+  }
+
+  #sidebar-header #fa-bar {
+    @apply text-2xl cursor-pointer;
+  }
+}

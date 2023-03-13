@@ -1,0 +1,11 @@
+@tailwind components;
+
+@layer components {
+  #top-nav-left-icons {
+    @apply flex justify-center items-center gap-[12px]; /*flex*/
+  }
+
+  #top-nav-left-icons .tn-left-icon {
+    @apply w-[24px];
+  }
+}

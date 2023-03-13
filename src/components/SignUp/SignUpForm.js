@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import { signUpLogoProperty } from "../nextjsImageProperties/imageProperties";
+import { logoProperty } from "../../util/nextjsImageProperties/imageProperties";
 
 export default function SignUpForm() {
   return (
     <div id="signup-form-container">
       <div id="signup-form-wrapper">
         <div id="signup-form-head-wrapper">
-          <Image {...signUpLogoProperty} />
+          <Image {...logoProperty} />
           <h1>Sign Up</h1>
           <p>
             Already have an account?{" "}

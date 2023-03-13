@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+  #master {
+    @apply w-screen h-screen bg-rose-200 relative flex;
+  }
+}

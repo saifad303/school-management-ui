@@ -2,18 +2,18 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import {
-  signInLogoProperty,
+  logoProperty,
   facebookLinkerImage,
   googleLinkerImage,
   twitterLinkerImage,
-} from "../nextjsImageProperties/imageProperties";
+} from "../../util/nextjsImageProperties/imageProperties";
 
 export default function SignInForm() {
   return (
     <div id="signin-form-container">
       <div id="signin-form-wrapper">
         <div id="signin-form-head-wrapper">
-          <Image {...signInLogoProperty} />
+          <Image {...logoProperty} />
           <h1>Sign In</h1>
           <p>
             Don't have an account?{" "}
