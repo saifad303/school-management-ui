@@ -3,10 +3,10 @@ import {
   topNavLeftMail,
   topNavLeftUser,
   topNavLeftPlus,
+  topNavLeftRevealer,
 } from "@/util/nextjsImageProperties/imageProperties";
+import { HiBars3BottomLeft } from "react-icons/hi2";
 import Image from "next/image";
-
-topNavLeftCalender;
 
 function TopNavLeft() {
   return (
@@ -17,6 +17,7 @@ function TopNavLeft() {
         <Image {...topNavLeftUser} />
         <Image {...topNavLeftPlus} />
       </div>
+      <Image {...topNavLeftRevealer} id="top-nav-left-altBar" />
     </div>
   );
 }

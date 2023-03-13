@@ -101,6 +101,12 @@ export const topNavLeftPlus = {
   className: "tn-left-icon",
 };
 
+export const topNavLeftRevealer = {
+  ...imageCommonProps,
+  src: "/images/left-icon-reveal.svg",
+  className: "tn-left-icon",
+};
+
 // location: components/TopNav/TopNavRight
 
 export const topNavRightLanguage = {
