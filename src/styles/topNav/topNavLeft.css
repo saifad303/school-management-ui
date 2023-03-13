@@ -2,10 +2,14 @@
 
 @layer components {
   #top-nav-left-icons {
-    @apply flex justify-center items-center gap-[12px]; /*flex*/
+    @apply lg:flex lg:justify-center lg:items-center lg:gap-[12px] hidden; /*flex*/
   }
 
   #top-nav-left-icons .tn-left-icon {
     @apply w-[24px];
+  }
+
+  #top-nav-left-altBar {
+    @apply block lg:hidden w-[24px] cursor-pointer;
   }
 }

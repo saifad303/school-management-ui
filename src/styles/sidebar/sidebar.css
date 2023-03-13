@@ -3,7 +3,7 @@
 @layer components {
   #sidebar {
     @apply w-[230px] xsm:w-[250px] sm:w-[280px] 2xl:w-[400px]; /* width */
-    @apply absolute top-0 left-0 lg:relative; /* position */
+    @apply absolute top-0 left-[-100%] lg:relative lg:left-0; /* position */
     @apply h-full bg-[#18212F] text-white; /**/
   }
 }
