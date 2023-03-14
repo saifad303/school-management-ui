@@ -144,3 +144,13 @@ export const topNavRightBell = {
   src: "/images/Bell_Ring-icon.svg",
   className: "tn-right-icon",
 };
+
+// location: components/sidebar/AccOwner
+
+export const ownerImageProps = {
+  ...imageCommonProps,
+  src: "/images/owner.png",
+  id: "owner-image",
+  width: 96,
+  height: 96,
+};

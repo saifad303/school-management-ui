@@ -1,0 +1,22 @@
+@tailwind components;
+
+@layer components {
+  #acc-owner {
+    @apply w-full mt-[36px];
+  }
+
+  #acc-owner #owner-image {
+    @apply mx-auto;
+  }
+
+  #acc-owner #owner-cred {
+    @apply text-center mt-[14px];
+  }
+
+  #acc-owner #owner-cred h3 {
+    @apply font-extrabold text-[18px];
+  }
+  #acc-owner #owner-cred p {
+    @apply font-thin;
+  }
+}

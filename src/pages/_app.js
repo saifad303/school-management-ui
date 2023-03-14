@@ -6,6 +6,7 @@ import "@/styles/topNav/topNav.css";
 import "@/styles/topNav/topNavLeft.css";
 import "@/styles/topNav/topNavRight.css";
 import "@/styles/sidebar/sidebar.css";
+import "@/styles/sidebar/accOwner.css";
 import "@/styles/sidebar/sidebarHeader.css";
 import "@/styles/signup/signUpForm.css";
 import "@/styles/signin/signInForm.css";
