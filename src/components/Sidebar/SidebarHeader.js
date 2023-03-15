@@ -5,8 +5,8 @@ import { FaBars } from "react-icons/fa";
 function SidebarHeader() {
   return (
     <div id="sidebar-header">
-      <FaBars id="fa-bar" />
       <Image {...logoProperty} />
+      <FaBars id="fa-bar" />
     </div>
   );
 }
