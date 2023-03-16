@@ -1,4 +1,7 @@
 @tailwind components;
 
 @layer components {
+  #menu-items {
+    @apply mt-10 h-[60%] overflow-y-auto px-[10px];
+  }
 }
