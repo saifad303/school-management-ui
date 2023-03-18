@@ -1,4 +1,4 @@
-/* Global Master Main css */
+/* Global, Master, Main css */
 @import url("@/styles/globals.css");
 @import url("@/styles/master.css");
 @import url("@/styles/main.css");
@@ -11,7 +11,9 @@
 /* sidebar css */
 @import url("@/styles/sidebar/sidebar.css");
 @import url("@/styles/sidebar/sidebarItems/items.css");
+@import url("@/styles/sidebar/sidebarItems/itemContainer.css");
 @import url("@/styles/sidebar/sidebarItems/item.css");
+@import url("@/styles/sidebar/sidebarItems/itemHeader.css");
 @import url("@/styles/sidebar/accOwner.css");
 @import url("@/styles/sidebar/sidebarHeader.css");
 

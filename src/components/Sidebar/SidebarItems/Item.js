@@ -1,9 +1,15 @@
-function Item() {
+function Item({ itemList }) {
+  console.log("itemList = ", itemList);
+
   return (
-    <div id="menu-item">
-      <div>items 2</div>
-      <p>item 2</p>
-    </div>
+    <>
+      {itemList.map(({ id, name, icon }) => (
+        <div id="item" key={id}>
+          {icon}
+          <p>{name}</p>
+        </div>
+      ))}
+    </>
   );
 }
 
