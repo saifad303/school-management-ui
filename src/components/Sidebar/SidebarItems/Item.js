@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 function Item({ itemList }) {
   console.log("itemList = ", itemList);
 
@@ -5,7 +7,7 @@ function Item({ itemList }) {
     <>
       {itemList.map(({ id, name, icon }) => (
         <div id="item" key={id}>
-          {icon}
+          <Image src={icon} width={22} height={22} />
           <p>{name}</p>
         </div>
       ))}

@@ -2,5 +2,14 @@
 
 @layer components {
   #item {
+    @apply flex items-center gap-[10px] h-[60px] cursor-pointer px-[19px];
+  }
+
+  #item:hover {
+    @apply bg-[#515F75];
+  }
+
+  #item p {
+    @apply text-[18px] capitalize;
   }
 }

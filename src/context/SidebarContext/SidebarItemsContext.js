@@ -1,12 +1,3 @@
-import {
-  AiOutlineFundProjectionScreen,
-  AiOutlineMoneyCollect,
-} from "react-icons/ai";
-import { GrAnalytics, GrMailOption } from "react-icons/gr";
-import { SlCalender, SlFolderAlt, SlGraduation } from "react-icons/sl";
-import { FaOpencart } from "react-icons/fa";
-import { BsActivity, BsShieldLock } from "react-icons/bs";
-
 export const sidebarItemList = [
   {
     id: "dashboard-id",
@@ -16,17 +7,17 @@ export const sidebarItemList = [
       {
         id: 1,
         name: "project",
-        icon: <AiOutlineFundProjectionScreen />,
+        icon: "/images/project logo.svg",
       },
       {
         id: 2,
         name: "analytics",
-        icon: <GrAnalytics />,
+        icon: "/images/analytics logo.svg",
       },
       {
         id: 3,
         name: "finance",
-        icon: <AiOutlineMoneyCollect />,
+        icon: "/images/finance logo.svg",
       },
     ],
   },
@@ -38,17 +29,17 @@ export const sidebarItemList = [
       {
         id: 1,
         name: "academy",
-        icon: <SlGraduation />,
+        icon: "/images/academy logo.svg",
       },
       {
         id: 2,
         name: "calender",
-        icon: <SlCalender />,
+        icon: "/images/calendar logo.svg",
       },
       {
         id: 3,
         name: "E-Commerce",
-        icon: <FaOpencart />,
+        icon: "/images/e commerce logo.svg",
         subItemList: [
           { id: 1, title: "product" },
           { id: 2, title: "product detail" },
@@ -60,12 +51,12 @@ export const sidebarItemList = [
       {
         id: 4,
         name: "file manager",
-        icon: <SlFolderAlt />,
+        icon: "/images/filre managerlogo.svg",
       },
       {
         id: 5,
         name: "mail",
-        icon: <GrMailOption />,
+        icon: "/images/mail logo.svg",
       },
     ],
   },
@@ -77,12 +68,12 @@ export const sidebarItemList = [
       {
         id: 1,
         name: "activities",
-        icon: <BsActivity />,
+        icon: "/images/activity-logo.svg",
       },
       {
         id: 3,
         name: "authentication",
-        icon: <BsShieldLock />,
+        icon: "/images/lock-logo.svg",
         subItemList: [
           { id: 1, title: "auth item 1" },
           { id: 2, title: "auth item 2" },
