@@ -2,6 +2,6 @@
 
 @layer components {
   #item-container {
-    @apply px-[19px];
+    /* @apply px-[19px]; */
   }
 }

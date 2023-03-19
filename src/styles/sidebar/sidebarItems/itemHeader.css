@@ -2,7 +2,7 @@
 
 @layer components {
   #item-header {
-    @apply py-[14px];
+    @apply py-[14px] px-[19px];
   }
   #item-header h2 {
     @apply font-extrabold  text-[18px] uppercase text-[#745FF2];
