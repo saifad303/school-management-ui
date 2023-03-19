@@ -78,6 +78,7 @@ export const sidebarItemList = [
           { id: 1, title: "auth item 1" },
           { id: 2, title: "auth item 2" },
           { id: 3, title: "auth item 3" },
+          { id: 3, title: "auth item 4" },
         ],
       },
     ],
