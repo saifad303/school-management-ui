@@ -5,8 +5,8 @@ import {
   topNavLeftPlus,
   topNavLeftRevealer,
 } from "@/util/nextjsImageProperties/imageProperties";
-import { HiBars3BottomLeft } from "react-icons/hi2";
 import Image from "next/image";
+import { Button } from "flowbite-react";
 
 function TopNavLeft() {
   return (

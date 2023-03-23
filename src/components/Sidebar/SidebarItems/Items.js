@@ -1,7 +1,8 @@
+import { useSelector } from "react-redux";
+import { sidebarItems } from "@/redux/features/sidebar/itemsSlice";
 import ItemContainer from "./ItemContainer";
-import { sidebarItemList } from "@/context/SidebarContext/SidebarItemsContext";
 function Items() {
-  // console.log(sidebarItemList);
+  let sidebarItemList = useSelector(sidebarItems);
   return (
     <div id="items">
       {sidebarItemList.map((item) => (

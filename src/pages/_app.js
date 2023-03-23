@@ -1,5 +1,8 @@
 import "@/styles/styleExporter.css";
 
+import { store } from "@/redux/store";
+import { Provider } from "react-redux";
+
 import { DM_Sans } from "next/font/google";
 
 const dmSans = DM_Sans({
@@ -11,8 +14,10 @@ const dmSans = DM_Sans({
 
 export default function App({ Component, pageProps }) {
   return (
-    <main className={`${dmSans.variable} font-sans`}>
-      <Component {...pageProps} />
-    </main>
+    <Provider store={store}>
+      <main className={`${dmSans.variable} font-sans`}>
+        <Component {...pageProps} />
+      </main>
+    </Provider>
   );
 }
