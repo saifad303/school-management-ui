@@ -12,4 +12,7 @@
   #item p {
     @apply text-[18px] capitalize;
   }
+  #item .sidebar-icon {
+    @apply w-[28px] h-[28px];
+  }
 }

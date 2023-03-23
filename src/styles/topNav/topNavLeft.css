@@ -6,7 +6,7 @@
   }
 
   #top-nav-left-icons .tn-left-icon {
-    @apply w-[24px];
+    @apply w-[24px] cursor-pointer;
   }
 
   #top-nav-left-altBar {

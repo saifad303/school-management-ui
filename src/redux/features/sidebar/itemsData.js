@@ -1,3 +1,20 @@
+import {
+  AiOutlineFundProjectionScreen as Project,
+  AiOutlineShoppingCart as ECommerce,
+  AiOutlineFolder as File,
+  AiOutlineMail as Mail,
+} from "react-icons/ai";
+import {
+  BsGraphUp as Analytics,
+  BsCalendarDate as Calender,
+  BsActivity as Activities,
+  BsShieldLock as Authentication,
+} from "react-icons/bs";
+import {
+  FaRegMoneyBillAlt as Finance,
+  FaGraduationCap as Academy,
+} from "react-icons/fa";
+
 export const sidebarItemList = [
   {
     id: "dashboard-id",
@@ -7,17 +24,17 @@ export const sidebarItemList = [
       {
         id: 1,
         name: "project",
-        icon: "/images/project logo.svg",
+        icon: <Project className="sidebar-icon" />,
       },
       {
         id: 2,
         name: "analytics",
-        icon: "/images/analytics logo.svg",
+        icon: <Analytics className="sidebar-icon" />,
       },
       {
         id: 3,
         name: "finance",
-        icon: "/images/finance logo.svg",
+        icon: <Finance className="sidebar-icon" />,
       },
     ],
   },
@@ -29,17 +46,17 @@ export const sidebarItemList = [
       {
         id: 1,
         name: "academy",
-        icon: "/images/academy logo.svg",
+        icon: <Academy className="sidebar-icon" />,
       },
       {
         id: 2,
         name: "calender",
-        icon: "/images/calendar logo.svg",
+        icon: <Calender className="sidebar-icon" />,
       },
       {
         id: 3,
         name: "E-Commerce",
-        icon: "/images/e commerce logo.svg",
+        icon: <ECommerce className="sidebar-icon" />,
         subItemList: [
           { id: 1, title: "product" },
           { id: 2, title: "product detail" },
@@ -51,12 +68,12 @@ export const sidebarItemList = [
       {
         id: 4,
         name: "file manager",
-        icon: "/images/filre managerlogo.svg",
+        icon: <File className="sidebar-icon" />,
       },
       {
         id: 5,
         name: "mail",
-        icon: "/images/mail logo.svg",
+        icon: <Mail className="sidebar-icon" />,
       },
     ],
   },
@@ -68,25 +85,16 @@ export const sidebarItemList = [
       {
         id: 1,
         name: "activities",
-        icon: "/images/activity-logo.svg",
+        icon: <Activities className="sidebar-icon" />,
       },
       {
         id: 3,
         name: "authentication",
-        icon: "/images/lock-logo.svg",
+        icon: <Authentication className="sidebar-icon" />,
         subItemList: [
           { id: 1, title: "auth item 1" },
           { id: 2, title: "auth item 2" },
           { id: 3, title: "auth item 3" },
-
-          { id: 3, title: "auth item 4" },
-          { id: 3, title: "auth item 5" },
-          { id: 3, title: "auth item 6" },
-
-          { id: 3, title: "auth item 5" },
-          { id: 3, title: "auth item 5" },
-
-          { id: 3, title: "auth item 7" },
         ],
       },
     ],
