@@ -22,5 +22,8 @@
 @import url("@/styles/signup/welcome.css");
 @import url("@/styles/signin/signInForm.css");
 
+/* Modals */
+@import url("@/styles/modals/sidebarMenuModel.css");
+
 export default {
 }
