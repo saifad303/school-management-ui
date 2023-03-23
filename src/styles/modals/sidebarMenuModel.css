@@ -1,0 +1,9 @@
+@tailwind components;
+@tailwind base;
+
+@layer components {
+  #sidebar-menu-modal {
+    @apply flex justify-center items-center;
+    @apply absolute w-full h-full bg-black/60 top-0 right-0;
+  }
+}
