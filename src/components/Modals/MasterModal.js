@@ -1,7 +1,5 @@
-import React from "react";
-
-function MasterModal() {
-  return <div id="master-modal">MasterModal</div>;
+function MasterModal({ children }) {
+  return <div id="master-modal">{children}</div>;
 }
 
 export default MasterModal;

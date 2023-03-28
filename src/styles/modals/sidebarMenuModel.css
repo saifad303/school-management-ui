@@ -3,7 +3,33 @@
 
 @layer components {
   #sidebar-menu-modal {
-    @apply flex justify-center items-center;
-    @apply absolute w-full h-full bg-black/60 top-0 right-0;
+    @apply bg-white w-[40%] py-[20px] px-[20px] rounded-lg;
+  }
+
+  #sidebar-menu-modal-header {
+    @apply flex justify-between items-center;
+  }
+
+  #sidebar-menu-modal-header h2 {
+    @apply text-2xl font-bold text-slate-700;
+  }
+
+  #sidebar-menu-modal-header p {
+    @apply text-base text-slate-400;
+  }
+
+  #sidebar-menu-modal-header input {
+    @apply rounded-lg outline-none;
+  }
+
+  #sidebar-menu-modal-header button {
+    @apply rounded-lg text-white text-xl bg-rose-600 py-[9px] px-[10px] mx-1;
+  }
+  #sidebar-menu-modal-row {
+    @apply flex items-center;
+  }
+
+  #sidebar-menu-modal-row #apply-btn {
+    @apply ml-auto;
   }
 }
