@@ -24,6 +24,7 @@
 
 /* Modals */
 @import url("@/styles/modals/sidebarMenuModel.css");
+@import url("@/styles/modals/masterModals.css");
 
 export default {
 }
